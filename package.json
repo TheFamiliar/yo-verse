@@ -9,5 +9,9 @@
   "dependencies": {
     "yeoman-generator": "^0.20.3"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:withverse/yo-verse.git"
+  },
   "license": "MIT"
 }
