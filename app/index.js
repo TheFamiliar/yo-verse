@@ -1,6 +1,7 @@
-var generators = require('yeoman-generator');
+var generator = require('yeoman-generator'),
+    mkdirp    = require('mkdirp');
 
-module.exports = generators.Base.extend({
+module.exports = generator.Base.extend({
 
     askForName: function () {
         var done = this.async();
@@ -38,6 +39,7 @@ module.exports = generators.Base.extend({
 
         this.installDependencies({
             callback: function () {
+                mkdirp('public_html/resources/scss/modules');
                 this.spawnCommand('grunt', ['init']);
             }.bind(this)
         });

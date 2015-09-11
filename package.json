@@ -1,13 +1,14 @@
 {
   "name": "generator-verse",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Yeoman generator for how we set up websites at Verse",
   "keywords": [
     "yeoman-generator"
   ],
   "author": "Kieran Patel me@kieranajp.co.uk",
   "dependencies": {
-    "yeoman-generator": "^0.20.3"
+    "yeoman-generator": "^0.20.3",
+    "mkdirp": "^0.5.1"
   },
   "repository": {
     "type": "git",
