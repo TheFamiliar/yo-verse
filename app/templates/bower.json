@@ -1,0 +1,7 @@
+{
+  "name": "<%= name %>",
+  "dependencies": {
+    "jquery": "~1.11.3",
+    "bootstrap-sass-official": "~3.3.5"
+  }
+}
