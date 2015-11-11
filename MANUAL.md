@@ -4,9 +4,9 @@ Sometimes you may wish to setup a site without using the generator.
 
 To do this, perform the following steps:
 
-1. Copy app/templates/package.json to your site's git root directory (e.g. above public_html). If your site has a package.json already, open up app/templates/package.json and copy the "devDependencies" section into the existing package.json. Replace all instances of <%= name %> within this file with your site's name.
+1. Copy app/templates/package.json to your site's git root directory (e.g. above public_html). If your site has a package.json already, open up app/templates/package.json and copy the "devDependencies" section into the existing package.json. Replace all instances of `<%= name %>` within this file with your site's name.
 2. Run `npm install` to install what's in the package.json (grunt and its modules).
-3. Copy app/templates/bower.json (or its "dependencies" section if your project already has a bower.json) into your site's git root directory. Replace all instances of <%= name %> in this file with your site's name.
+3. Copy app/templates/bower.json (or its "dependencies" section if your project already has a bower.json) into your site's git root directory. Replace all instances of `<%= name %>` in this file with your site's name.
 4. Copy app/templates/Gruntfile.js into the same place.
 5. Run `grunt init`. This:
     - Runs Bower, which downloads Bootstrap from Git and places it in a bower_components folder
