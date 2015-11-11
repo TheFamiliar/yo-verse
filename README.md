@@ -60,3 +60,10 @@ verse
 ```
 
 This should look very familiar if you've ever worked with us :)
+
+## Manual setup
+
+In some cases you may want to manually install bootstrap et al in this way, but without using the script. This usually occurs when there are some subtle differences in the setup that the script doesn't cover (for example, you already have some site folder structure set up and don't want to nuke the whole thing).
+
+See [MANUAL.md](https://github.com/withverse/yo-verse/blob/master/README.md) for more instructions on how to set things up manually, sans script.
+
